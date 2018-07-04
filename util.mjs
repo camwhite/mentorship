@@ -1,11 +1,9 @@
 import chalk from 'chalk'
 
-const logger = (log, color=null) => {
+export const logger = (log, color=null) => {
   if (color) {
-    console.log(chalk[color](log))
+    console.log(chalk[color](log + '\n\n'))
   } else {
-    console.log(log)
+    console.log(log + '\n\n')
   }
 }
-
-export default logger

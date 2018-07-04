@@ -1,5 +1,5 @@
 import fs from 'fs'
-import logger from '../util'
+import { logger } from '../util'
 
 /**
  * Strings are a type of variable.

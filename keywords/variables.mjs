@@ -1,4 +1,4 @@
-import logger from '../util'
+import { logger } from '../util'
 
 /**
  * Variables are a way to store and manipulate different types of values.
