@@ -9,7 +9,7 @@ It is meant to be cooperatively reviewed, with me, over no set amount of time an
 
 ## Prerequesites
 
-- [nodejs](https://github.com/creationix/nvm)
+- [node](https://github.com/creationix/nvm) >= 10.5.0
 
 ## Installion
 
