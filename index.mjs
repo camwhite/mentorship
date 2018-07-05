@@ -1,2 +1,2 @@
-//import './keywords'
 import './types'
+import './keywords'

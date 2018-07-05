@@ -8,7 +8,10 @@ import { logger } from '../util'
 
 export default (async () => {
 
-  const name = 'assignment' // a variable named name
-  logger(name, 'blue') // prints string of assignment
+  // Variables can be of any type
+  const x = 'assignment' // a variable named x
+  const y = [ x, x ]
+  const z = { x, y }
+  logger(z) // prints string of assignment
 
 })()
